@@ -4,19 +4,13 @@ body {
   background-repeat: no-repeat;
 }
 
-img {
-  width: 360px;
-  height: 460px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-@media (min-width: 576px) {
+@media only screen and (max-width: 576px) {
   img {
-    width: 200px;
-    height: 460px;
     -o-object-fit: contain;
        object-fit: contain;
+  }
+  .img11 {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -10,3 +10,11 @@ img {
     height: 460px;
     object-fit: contain;
 }
+
+@media (min-width: 576px) {
+    img {
+        width: 200px;
+        height: 460px;
+        object-fit: contain;
+    }
+}
